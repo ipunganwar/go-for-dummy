@@ -19,7 +19,14 @@ func main() {
 	var ages = 30
 	fmt.Println(age, ages)
 
-	// Without var
+	// Without var only for declaration
 	country := "Indonesia"
 	fmt.Println(country)
+
+	// MULTIPLE VARIABLE DECLARATION
+	var (
+		firstname = "Jhon"
+		lastname  = "Doe"
+	)
+	fmt.Println(firstname, lastname)
 }
